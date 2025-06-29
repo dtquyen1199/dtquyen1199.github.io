@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll(".navbar a[href="#"]");
+    const links = document.querySelectorAll(".navbar a");
 
     for (const link of links) {
         link.addEventListener("click", function(event) {
