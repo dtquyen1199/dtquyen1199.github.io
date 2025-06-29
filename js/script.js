@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (const link of links) {
         link.addEventListener("click", function(event) {
-            event.preventDefault();
+            //event.preventDefault();
             const targetId = this.getAttribute("href").substring(1);
             const targetSection = document.getElementById(targetId);
             const navbarHeight = document.querySelector(".navbar").offsetHeight;
