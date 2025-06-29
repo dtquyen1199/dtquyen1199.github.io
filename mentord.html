@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<script src="js/script.js"></script>
+<head>
+<meta charset="utf-8">
+<title>Thiem Quyen - Folio Site</title>
+	
+<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka+One&family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	
+	
+
+
+
+<header class="headerbar">
+	<nav class="navbar">
+	<a href = "#" id="menu-icon"></a>
+	<ul>
+ 			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#projects">PROJECTS</a></li>
+  			<li><a href="#skills">SKILLS</a></li>
+  			
+			<li><a href="#contact">CONTACT</a></li>
+			</ul>
+	</nav>
+	
+	
+</header>
+
+
+<!--First Section-->
+<div class="first-section-2" id ="about">	
+<div class="container">
+	<div>
+	<h1><span class="auto-type"></span></h1>
+	<h3> My Name is Thiem Quyen.</h3>
+	<p>I'm a software and web developer based in Naarm/Melbourne.</p> 
+	<a href="#contact"><button> Contact me!</button></a>
+	</div>
+
+
+</div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+	var typed = new Typed(".auto-type",{
+		strings: ["Hi!","Wominjeka!","Xin Chào!"],
+		typeSpeed:150,
+		backSpeed:150,
+		loop: true
+	})
+</script>
+
+</div>
+	
+	
+			
+
+	
+	
+	
+
+	
+		
+<!--Second Section: Projects-->
+<div class = "container-fluid" id="projects">
+<div class = "row blue-strip-style" >
+	<div class ="col-12 col-md-4 col-lg-4">
+		<h2>MENTORd</h2>
+	</div>
+</div>
+		
+	
+	    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+    </script>
+	
+
+	<div class="row off-white-area-style" >
+		<!-- Good news melton -->
+		<div class = "col-12 col-md-6 col-lg-4 project" style = "background-color: #F2F2F2; border: black">
+			<a href="" class = "a-div" data-toggle="modal" data-target="#exampleModal">
+			<img  class = "project-thumbnail" src ="images/mentord01.png" alt = "mockup of a website"  width = "100%">
+			<h4>Website</h4>
+			<h3>Good News Melton</h3>
+			<p>A community initiative focused on reframing perceptions of Melton and celebrating its vibrant culture. Built on Webflow with HTML,CSS, and Javascript</p>
+			</a>
+		</div>
+		
+		
+		    </button>
+    <!-- Modal -->
+    <div class="modal fade"
+         id="exampleModal" 
+         tabindex="-1" role="dialog" 
+         aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!-- Add image inside the body of modal -->
+                <div class="modal-body">
+                    <img id="image" src="images/mentord01.png"
+                        alt="Click on button" />
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" 
+                            class="btn btn-secondary" 
+                            data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Adding scripts to use bootstrap -->
+
+		
+		
+
+		<div class = "col-12 col-md-6 col-lg-4 project" style = "background-color: #F2F2F2; border: black">
+			<img  class = "project-thumbnail" src ="images/mentord.png" alt = "Mockup of a mobile app"  width = "100%">
+			<h4>Mobile App</h4>
+			<h3>MENTORd</h3>
+			<p>Mentord is a Health Management System designed for patients with Type II Diabetes. Developed using Flutter/Dart with a Node.js server, and prototyped with Adobe XD, it provides a comprehensive solution for effective health management.</p> 
+		</div>
+				
+		<div class = "col-12 col-md-6 col-lg-4 project" href="https://github.com/dtquyen1199/Greenhouse-IOT">
+			<a href = "https://github.com/dtquyen1199/Greenhouse-IOT" class = "a-div">
+			<img  src ="images/iot-mockup.png" alt = "Image of IOT System" width = "100%" class = "project-thumbnail"> 
+			<h4>IOT System</h4>
+			<h3>Greenhouse</h3>
+			<p>IoT-based smart greenhouse system that consists of three IoT nodes, each connected to an Arduino Uno microcontroller which monitor and sense changes in the temperature, humidity, soil moisture and light level.
+				<br>
+				A virtual Raspberry Pi is used as a cloud server and uses MQTT protocol to receive and store data into the database to make data driven decisions via edge server analytics to adapt environmental conditions for optimal plant growth</p>
+		</a>
+		</div>
+	</div>
+</div>
+
+	<div class="row off-white-area-style" style ="text-align: center " >	
+		<div class = "col-6 col-md-4 col-lg-4">
+			<img src ="images/html.jpg" alt = "html logo" class = "brand-logo">
+			<p> HTML and CSS</p>
+			</div>
+	
+		<div class = "col-6 col-md-4 col-lg-4">
+			<img src = "images/Flutter.svg" alt = "Flutter Logo" class = "brand-logo">
+			<p> Flutter/Dart</p>
+			</div>
+		
+		<div class = "col-6 col-md-4 col-lg-4">
+			<img src = "images/Adobe_XD_CC_icon.svg" alt = "Adobe XD Logo" class = "brand-logo">
+			<p>Adobe XD</p>
+			</div>
+
+
+
+
+		<div class = "col-6 col-md-4 col-lg-4">
+			<img src ="images/JavaScript-logo.png" alt = "Javascript logo" class = "brand-logo"> 
+			<p>Javascript</p>
+			</div>
+			<div class = "col-6 col-md-4 col-lg-4">
+				<img src ="images/kotlin-logo.png" alt = "kotlin logo" class = "brand-logo"> 
+				<p> Kotlin</p>
+				</div>
+
+
+		</div>
+
+
+
+
+	
+	
+	
+
+	
+	
+	
+
+	<!--Footer -->
+		<div class = "row footer-style" >
+			<div class = "col-12 col-md-12 col-lg-6 " id = "contact">
+				<p>
+					Designed and developed by Thiem Quyen
+				</p>
+			</div>
+			<div class = "col-12 col-md-12 col-lg-3 ">
+				<h3>Contact</h3>
+				<p>
+				Thiem Quyen <br>
+				0424955232 <br>
+				dtquyen1199@gmail.com <br>
+				</p>
+				</div>
+			<div class = "col-12 col-md-12 col-lg-3">
+				<h3>Social</h3>
+				<a href="https://www.linkedin.com/in/thiem-quyen-3533941b4/">LinkedIn</a>
+				<br>
+				<a href="https://github.com/dtquyen1199">Github</a>
+				</div> 
+		</div>
+</body>
+</html>
